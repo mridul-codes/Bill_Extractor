@@ -92,7 +92,7 @@ The generated `Final_Expenses.xlsx` will contain the following columns:
 
 ## 🛡️ Security Note
 
-[cite_start]This project adheres to security best practices by ignoring sensitive user data[cite: 1]:
+This project adheres to security best practices by ignoring sensitive user data:
 
 * **`.env`**: Ignored to protect credentials.
 * **`scanned_bills/`**: Ignored to protect personal financial documents.
