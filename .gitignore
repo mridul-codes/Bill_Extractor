@@ -9,3 +9,8 @@ scanned_bills/*
 
 # 4. My GoogleAPI key file
 *.env
+
+# 5. Ignore json files (intermediate data files)
+*.json
+
+
