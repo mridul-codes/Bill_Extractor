@@ -1,0 +1,11 @@
+# 1. Ignore all Excel files (the output)
+*.xlsx
+
+# 2. Ignore EVERYTHING inside the bills folder...
+scanned_bills/*
+
+# 3. ...EXCEPT the .gitkeep file (so that the empty folder stays in Git)
+!scanned_bills/.gitkeep
+
+# 4. My GoogleAPI key file
+*.env
