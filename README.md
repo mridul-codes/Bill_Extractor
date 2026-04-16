@@ -35,14 +35,14 @@ pip install google-genai pandas python-dotenv openpyxl streamlit xlsxwriter
 This project uses a `.env` file to manage secrets securely.
 
 1.  **Get your API Key:** Visit [Google AI Studio](https://aistudio.google.com/) and generate a Gemini API key.
-2.  **Create the file:** Create a new file in your project root named `.env`.
+2.  **Create the file:** Create a new file in your project root named `.env`. (just put the extension and add your api key)
 3.  **Add the key:** Paste the following line into the file (replace with your actual key):
 
 ```text
 GOOGLE_API_KEY=AIzaSy_Your_Actual_Key_Here
 ```
 ---
-###  🏃‍♂️ How to Run
+###   How to Run
 ---
 Option A: 
 Batch Processing (CLI)Best for processing many files at once.
